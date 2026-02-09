@@ -1,6 +1,6 @@
 # Event Dispatch Performance and Cognitive Load in Collegiate EMS
 
-This repository contains the digital poster and supporting materials presented at the NCEMSF Conference 2026 Academic Poster Session, hosted by the Journal of Collegiate EMS (JCEMS) and NCEMSF.
+This repository contains the [digital poster](https://berkeleymrc.github.io/jcems-event-dispatch-poster/) and supporting materials presented at the NCEMSF Conference 2026 Academic Poster Session, hosted by the Journal of Collegiate EMS (JCEMS) and NCEMSF.
 
 ## Authors
 * **Evan Passalacqua, EMT** (Berkeley Medical Reserve Corps; UC Berkeley Dept. of Statistics)
