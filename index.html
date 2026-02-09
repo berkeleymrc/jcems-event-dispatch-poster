@@ -7,37 +7,54 @@
     <style>
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 1000px; margin: 0 auto; padding: 2rem; background: #f4f4f4; }
         .container { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        
+        /* Using Berkeley Blue #003262 */
         header { border-bottom: 2px solid #003262; margin-bottom: 2rem; padding-bottom: 1rem; }
         h1 { color: #003262; margin: 0; font-size: 1.8rem; }
+        h3 { color: #003262; border-bottom: 1px solid #eee; padding-bottom: 0.5rem; }
+        
         .authors { font-style: italic; color: #666; margin-top: 0.5rem; }
         .poster-viewer { width: 100%; border: 1px solid #ddd; margin: 2rem 0; background: white; }
         .poster-viewer img { width: 100%; height: auto; display: block; }
+        
         .download-zone { text-align: center; margin-top: 2rem; }
-        .btn { background: #003262; color: white; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold; }
-        .btn:hover { background: #00274c; }
+        .btn { background: #003262; color: white; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold; transition: background 0.2s; }
+        .btn:hover { background: #00274c; } /* Slightly darker blue for hover */
+        
         .abstract-section { margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #eee; }
+        .abstract-section p { margin-bottom: 1.2rem; }
+        .section-head { font-weight: bold; color: #003262; }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
             <h1>Event Dispatch Performance and Cognitive Load in Collegiate EMS</h1>
-            <div class="authors">Passalacqua, E., Zhang, I., Levin, S., Bog, D. — Berkeley Medical Reserve Corps</div>
+            <div class="authors">Evan Passalacqua, EMT; Ivan Zhang, EMT; Sophia Levin, BS, EMT; Deren Bog, EMT — Berkeley Medical Reserve Corps</div>
         </header>
 
-        <p>Presented at the <strong>NCEMSF 2026 Academic Poster Session</strong>.</p>
+        <p>Presented at the NCEMSF 2026 Academic Poster Session in collaboration with the <em>Journal of Collegiate EMS (JCEMS)</em>.</p>
 
         <div class="poster-viewer">
-            <img src="assets/poster.svg" alt="Research Poster">
+            <img src="assets/jcems_poster.svg" alt="Academic Poster: Event Dispatch Performance">
         </div>
 
         <div class="download-zone">
-            <a href="pdf/poster.pdf" class="btn" download>Download High-Res PDF</a>
+            <a href="pdf/jcems_poster.pdf" class="btn" download>Download PDF Version</a>
         </div>
 
         <section class="abstract-section">
             <h3>Abstract</h3>
-            <p>[Paste Full Abstract Text Here]</p>
+            
+            <p><span class="section-head">Background:</span> Collegiate EMS agencies staff event dispatch with EMTs who lack formal dispatch training and rely on improvised tools to manage call traffic and unit assignment. The impact of these conditions on dispatcher performance is poorly understood.</p>
+
+            <p><span class="section-head">Objectives:</span> To evaluate dispatch performance, error rates, usability, and cognitive load among novice collegiate EMS dispatchers using three systems.</p>
+
+            <p><span class="section-head">Methods:</span> EMT-B volunteers without prior dispatch experience (n=12) completed dispatch simulations using three dispatch tools: a Google Sheets template, BrutalCAD, and CrowdCAD. Dispatch latency and errors were derived from annotated audio and system logs. Usability and cognitive load were assessed using self-report instruments.</p>
+
+            <p><span class="section-head">Results:</span> Tools showed no difference in call or equipment dispatch latency ($p \geq 0.19$) or error rates ($p = 1.00$). Usability and cognitive load differed significantly, with higher usability and lower perceived workload reported for CrowdCAD compared to the other tools ($p \leq 0.017$ usability, $p \leq 0.008$ cognitive load).</p>
+
+            <p><span class="section-head">Conclusion:</span> Among novice collegiate EMS dispatchers in simulated event standby, dispatch speed and accuracy were similar across tools, while cognitive burden and usability varied substantially. These findings suggest dispatcher performance in collegiate EMS is constrained more by human factors than by tool capabilities alone, underscoring the importance of usability and dispatcher preparation.</p>
         </section>
     </div>
 </body>
